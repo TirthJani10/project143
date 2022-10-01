@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 ;
+    background-color: #24252A;
+}
+#start_button {
+    font-family: 'Oswald', sans-serif;
+}
+#status {
+    font-family: 'Oswald', sans-serif;
+}
+img {
+    width:100px;
+}
+h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: wheat;
+}
+li, a, button {
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.logo:hover {
+    width:110px;
+}
+.nav__links {
+    list-style: none;
+}
+.nav__links li {
+    display: inline-block;
+    padding: 0px;
+}
+.nav__links li a {
+    text-decoration: none;
+    transition: all 0.6s ease 0s;
+    cursor: pointer;
+    font-family: 'Teko', sans-serif;
+    font-size: 25px;
+    color:white;
+    padding-right:25px;
+    padding-top:55px;
+}
+.nav__links li a:hover {
+    color: #0088a9;
+}
+
+.modal-dialog{
+    width:90%;
+    color: white;
+    font-family: 'Teko', sans-serif;
+}
+#restart_button {
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+}
+
